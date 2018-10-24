@@ -1,0 +1,163 @@
+/* -- CSS Reset -- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;
+  margin: 0;
+}
+
+ul, ol {
+  list-style-type:none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  border: none;
+  border-style: none;
+  box-shadow: none;
+}
+
+a {
+  color: #cccccc;
+  border-bottom: 1px dotted #cccccc;
+}
+a:hover {
+  color: #CA486d;
+  border-bottom: 1px dotted #CA486d;
+}
+
+html {
+  background-color: #111111;
+}
+
+body {
+  background-color: #111111;
+  font-family: serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #cccccc;
+}
+
+.fs-split {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+@media (max-width: 800px) {
+  .fs-split {
+    height: auto;
+    flex-wrap: wrap;
+  }
+}
+
+.fs-split .split-image {
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
+}
+@media (max-width: 800px) {
+  .fs-split .split-image {
+    height: 80vh;
+    width: 100%;
+  }
+}
+.fs-split .split-content {
+  width: 50%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+@media (max-width: 800px) {
+  .fs-split .split-content {
+    width: 100%;
+    height: auto;
+  }
+}
+.fs-split .split-content .split-content-vertically-center {
+  padding: 80px;
+  max-width: 640px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media (max-width: 1200px) {
+  .fs-split .split-content .split-content-vertically-center {
+    padding: 60px;
+  }
+}
+@media (max-width: 800px) {
+  .fs-split .split-content .split-content-vertically-center {
+    padding: 40px;
+  }
+}
+
+.split-intro h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  color: #CCCCCC;
+}
+
+.split-links {
+  padding: 40px 0 20px 0;
+}
+@media (max-width: 1200px) {
+  .split-links {
+    padding: 30px 0 10px 0;
+  }
+}
+@media (max-width: 800px) {
+  .split-links {
+    padding: 20px 0 0 0;
+  }
+}
+
+.split-links table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+.links-left {
+  text-align: right;
+}
+
+.split-footer {
+  position: fixed;
+  bottom: 50px;
+  font-size: 12px;
+  width: 50%;
+}
+.split-footer ul {
+  margin: 0 auto;
+  width: 400px;
+}
+.split-footer li {
+  display: inline;
+  margin-left: 10px;
+}
