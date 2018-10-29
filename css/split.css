@@ -99,6 +99,9 @@ body {
     width: 100%;
     height: auto;
   }
+  .fs-split .split-footer {
+    width: 100%;
+  }
 }
 .fs-split .split-content .split-content-vertically-center {
   padding: 80px;
@@ -124,6 +127,13 @@ body {
   text-align: center;
   color: #CCCCCC;
 }
+
+.split-intro h2 {
+  line-height: 50px;
+  text-align: center;
+  color: #CCCCCC;
+}
+
 
 .split-links {
   padding: 40px 0 20px 0;
