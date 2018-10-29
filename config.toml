@@ -2,5 +2,6 @@ baseURL = "http://pim-book.org/"
 languageCode = "en-us"
 title = "A Programmer's Introduction to Mathematics"
 
+publishDir = "."
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 copyright = "&copy;2018 Jeremy Kun"
