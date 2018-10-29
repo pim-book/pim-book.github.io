@@ -77,12 +77,13 @@ body {
 .fs-split .split-image {
   width: 50%;
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 @media (max-width: 800px) {
   .fs-split .split-image {
-    height: 80vh;
-    width: 100%;
+    display: none;
   }
 }
 .fs-split .split-content {
