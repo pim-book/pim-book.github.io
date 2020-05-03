@@ -30,7 +30,7 @@ Polynomials,29,"coefficients are rational number -> coefficients are rational nu
 Polynomials,29,"contol points -> control points",Don-Duong Quach,
 Polynomials,29,"product and sum ...  [are] algebraic",David Furcy,"Clarified the sentence by splitting it into two and hinting that one is much harder."
 Polynomials,29,Bezier -> Bézier,Don-Duong Quach,
-Polynomials,29,Exercise 2.6, 'k real roots' -> 'n real roots',Sriram Srinivasan,
+Polynomials,29,"Exercise 2.6: 'k real roots' -> 'n real roots'",Sriram Srinivasan,
 Polynoials,32,"Unindent leading and",Oliver Sampson,
 Polynomials,33,"when evaluate f(x) -> when evaluating f(x)",David Furcy,
 Sets,39,"Fix the comma at the end of ""Unfortunately set theory has a lot of new terminology,""",Michaël Defferrard,
@@ -121,7 +121,7 @@ Linear Algbera,138,"sepcific -> specific",Tim Wilkens,
 Linear Algebra,141,"Remove the use of span in the description for Figure 10.4 before it is defined.",Tim Wilkens,
 Linear Algebra,142,"every linear map preserve -> every linear map preserves",K. Alex Mills,
 Linear algebra,143,"On this page there is a call to do exercises 10.1-10.4, however a subspace, used in Ex 10.3, is not defined until 148, after this call",Arthur Allshire,"Fixed by rearranging the exercises"
-12/10/2018 17:57:53,147,"Beacuse -> Because",Tim Wilkens,
+Linear Algebra,147,"Beacuse -> Because",Tim Wilkens,
 Linear algebra,148,"In the proof of theorem 10.8 ""U_1 = V - {u_1}"", should be ""U_1 = U-{u_1}""",Arthur Allshire,
 Linear Algebra,156,"not -> now",Tim Wilkens,
 Linear Algebra,159,"polynoimals -> polynomials",Tim Wilkens,
@@ -156,4 +156,4 @@ Groups,299,"correctness of compiler analyzer -> correctness of the compiler anal
 Groups,301,"We'll see how of geometry -> We'll see how geometry",K. Alex Mills,
 Groups,302,"Of particular interest [in]->[is] the triangle inequality...",K. Alex Mills,
 Groups,310,"Clarify the definition of a group that has a single generating element",K. Alex Mills,"The book is correct as stated, but I took the opportunity to clarify the difference between a generator (single element generating the group) and a generating set (where a cyclic group has such a set of size one), whose elements are sometimes called generators."
-Groups,329,"Owen Jones' ""The Grammar of Ornament"" is cited as ""The grammar of Orient"".,Rodrigo Ariel Sota,"Added additional information about the author and title to the first reference."
+Groups,329,"Owen Jones' 'The Grammar of Ornament' is incorrectly cited as 'The grammar of Orient'",Rodrigo Ariel Sota,"Added additional information about the author and title to the first reference."
